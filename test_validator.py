@@ -2,7 +2,6 @@ import unittest
 from validator import is_valid_address
 
 class TestValidator(unittest.TestCase):
-
     def test_valid_address(self):
         self.assertTrue(is_valid_address("Av. Siempre Viva 742"))
 
